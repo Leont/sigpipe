@@ -1,0 +1,25 @@
+{
+  "auth": "zef:leont",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "set up SIGPIPE correctly for CLI applications",
+  "license": "Artistic-2.0",
+  "name": "sigpipe",
+  "perl": "6.d",
+  "provides": {
+    "sigpipe": "lib/sigpipe.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
