@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/Leont/sigpipe/workflows/test/badge.svg)](https://github.com/Leont/sigpipe/actions)
+
 NAME
 ====
 
