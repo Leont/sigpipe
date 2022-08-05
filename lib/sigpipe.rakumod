@@ -1,13 +1,11 @@
-package sigpipe {}
+unit package sigpipe;
 
 use NativeCall;
 my sub signal(int32 $signal, long $func) is native { * }
 
-sub EXPORT(Str $label = 'default') {
-	my $value = $label eq 'ignore' ?? -1 !! 0;
+INIT {
 	# if signal or SIGPIPE doesn't exist this is a noop.
-	try signal(Signal.WHO<SIGPIPE>, $value);
-	{};
+	try signal(Signal.WHO<SIGPIPE>, 0);
 }
 
 =begin pod
