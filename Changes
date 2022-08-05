@@ -1,6 +1,8 @@
 Revision history for sigpipe
 
 {{$NEXT}}
+
+0.0.3  2022-08-05T22:36:42+02:00
     - Use INIT phaser for correct timing
 
 0.0.2  2022-08-05T19:32:40+02:00
