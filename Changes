@@ -2,5 +2,8 @@ Revision history for sigpipe
 
 {{$NEXT}}
 
+0.0.2  2022-08-05T19:32:40+02:00
+    - Fix Windows compatibility
+
 0.0.1  2022-08-03T19:55:52+02:00
     - Initial version
